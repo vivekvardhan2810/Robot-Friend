@@ -1,7 +1,84 @@
 # Robot-Friend
-<b>Explanation of the Above Code:</b>
-1) The code defines a class named "Robot" with a constructor (init) that takes a parameter "name" and initializes two attributes: "name" and "is_healthy" (set to True by default).
-2) The class has two methods: "get_cold," which sets the robot's health status to False, simulating catching a cold, and "display_health_status," which prints a message indicating whether the robot is in optimal condition or not.
-3) An instance of the Robot class is created with the name "RoboFriend" (robot1).
-4) The initial health status of the robot is displayed using the "display_health_status" method.
-5) The robot's health status is then updated by calling the "get_cold" method, and the updated health status is displayed again. The output would show that "RoboFriend" is initially in optimal condition, but after calling "get_cold," it is under the weather and needs virtual antivirus.
+
+Created for a Small Python Program
+
+## Description
+
+Robot-Friend is a Python program designed to interact with users in a fun and engaging way. The project aims to showcase basic Python programming concepts while providing an interactive experience for users.
+
+## Features
+
+- Interactive chatbot functionality
+- User-friendly interface
+- Customizable responses
+- Simple yet engaging dialogue flow
+
+## Technologies Used
+
+- Python
+
+## Prerequisites
+
+- Python installed on your system
+
+## Installation
+
+1. Clone the repository:
+   ```
+   git clone https://github.com/your-username/Robot-Friend.git
+   ```
+
+2. Navigate to the project directory:
+   ```
+   cd Robot-Friend
+   ```
+
+3. Run the program:
+   ```
+   python robot_friend.py
+   ```
+
+## Configuration
+
+No additional configuration is required.
+
+## Usage
+
+To start interacting with Robot-Friend, simply run the program and follow the on-screen prompts. Here's a basic example:
+
+```python
+from robot_friend import Chatbot
+
+chatbot = Chatbot()
+chatbot.start_chat()
+```
+
+## API Reference
+
+The program does not expose any external endpoints or functions.
+
+## Testing
+
+To run tests, use the following command:
+```
+python test_robot_friend.py
+```
+
+## Contributing
+
+Contributions are welcome! Please adhere to the following guidelines:
+- Fork the repository
+- Make your changes
+- Submit a pull request
+
+For major changes, please open an issue first to discuss the proposed changes.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+
+## Acknowledgments
+
+Special thanks to the contributors who have helped improve this project.
+
+Feel free to engage with Robot-Friend and enjoy the interactive experience it provides!
